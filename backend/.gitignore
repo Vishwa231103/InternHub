@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.cache/
+
+# Development / debug files
+*_debug.html
+inspect_*.py
+test_*.py
