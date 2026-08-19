@@ -94,7 +94,7 @@ function App() {
       // --------------------------------------------------------
 
       const baseUrl =
-        "http://127.0.0.1:8000/api/internships";
+        "https://internhub-backend-dpo9.onrender.com/api/internships";
 
       const url = params.toString()
         ? `${baseUrl}?${params.toString()}`
