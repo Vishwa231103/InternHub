@@ -4,9 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from services.aggregator import get_internships
 
 
-# ============================================================
-# FASTAPI APPLICATION
-# ============================================================
+
 
 app = FastAPI(
     title="InternHub API",
@@ -15,9 +13,7 @@ app = FastAPI(
 )
 
 
-# ============================================================
-# CORS
-# ============================================================
+
 
 app.add_middleware(
     CORSMiddleware,
