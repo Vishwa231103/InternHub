@@ -25,7 +25,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
-        "https://intern-hub-ashen.vercel.app",
+        "https://internhub-peach.vercel.app",
     ],
 
     allow_credentials=True,
